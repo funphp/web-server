@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = process.env.POST || 3000;  //listening heroku port
+var port = process.env.PORT || 3000;  //listening heroku port
 
 var middleware = require('./middleware');
 
